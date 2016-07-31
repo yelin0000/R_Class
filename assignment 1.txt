@@ -1,0 +1,41 @@
+1. Write a loop that calculates 12-factorial.
+
+mul <- 1
+i <- 1
+while (i <= 12)
+{ 
+  mul <- mul * i 
+  i <- i + 1
+}
+print(mul)
+
+
+2. Show how to create a numeric vector that contains the sequence from 20 to 50 by 5.
+
+nlist = ((50-20)/5)+1
+numVec = c{20}
+nVal <- numVec[1]
+Print(nVal)
+i <- 1
+
+for i <= nlist
+{
+  nVal=nVal+i*5
+  numVec.append(nVal[i])
+}
+
+print(numVec)
+
+
+
+3. Show how to take a trio of input numbers a, b, and c and implement the quadratic equation.
+
+a <- 1
+b <- -5
+c <- -7
+
+x1 <- ((-b) + sqrt(b^2-(4*a*c))/2*a)
+x2 <- ((-b) - sqrt(b^2-(4*a*c))/2*a)
+
+print(x1)
+print(x2)
